@@ -13,11 +13,10 @@ export const downloadResume = async (req, res) => {
     if (!fs.existsSync(resumePath)) {
       return res.status(404).json({
         error: 'Resume file not found',
-        message: 'Please add a resume.pdf file to the backend directory'
+        message: 'Pleasee add a resume.pdf file to the backend directory'
       });
     }
 
-    // Set headers for download
     res.setHeader('Content-Type', 'application/pdf');
     res.setHeader('Content-Disposition', 'attachment; filename="Sayyedain_Saqlain_Resume.pdf"');
 
