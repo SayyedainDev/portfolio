@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-white/10;
+  }
+
+  body {
+    @apply bg-[#121212] text-white antialiased;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer components {
+  /* Hero gradient text effect - vertical gradient from white to accent */
+  .hero-gradient-text {
+    background: linear-gradient(180deg, #FFFFFF 0%, #40E0D0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0A0A0A;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #40E0D0;
+}
+
+/* Selection color */
+::selection {
+  background-color: rgba(64, 224, 208, 0.3);
+  color: white;
+}
+
+::-moz-selection {
+  background-color: rgba(64, 224, 208, 0.3);
+  color: white;
+}
