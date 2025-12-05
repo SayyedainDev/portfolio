@@ -4,7 +4,6 @@ import dotenv from 'dotenv';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import contactRoutes from './routes/contact.js';
-import resumeRoutes from './routes/resume.js';
 import errorHandler from './middleware/errorHandler.js';
 
 // ES module fix for __dirname
@@ -20,6 +19,7 @@ const PORT = process.env.PORT || 5000;
 // Middleware
 app.use(cors({
   origin: process.env.FRONTEND_URL || 'http://localhost:3000',
+  methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: true
 }));
 app.use(express.json());
@@ -42,7 +42,6 @@ app.get('/api/health', (req, res) => {
 
 // Routes
 app.use('/api', contactRoutes);
-app.use('/api', resumeRoutes);
 
 // 404 handler
 app.use((req, res) => {
@@ -55,9 +54,10 @@ app.use((req, res) => {
 // Error handling middleware (must be last)
 app.use(errorHandler);
 
-// Start server
-app.listen(PORT, () => {
-  console.log(`
+// Start server (only in development, Vercel handles production)
+if (process.env.NODE_ENV !== 'production') {
+  app.listen(PORT, () => {
+    console.log(`
 ╔═══════════════════════════════════════════════════════╗
 ║                                                       ║
 ║   🚀 Portfolio Backend Server                         ║
@@ -67,7 +67,8 @@ app.listen(PORT, () => {
 ║   Timestamp: ${new Date().toLocaleString()}            ║
 ║                                                       ║
 ╚═══════════════════════════════════════════════════════╝
-  `);
-});
+    `);
+  });
+}
 
 export default app;
