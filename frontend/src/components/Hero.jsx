@@ -84,35 +84,15 @@ const Hero = () => {
     return () => window.removeEventListener('mousemove', handleMouseMove);
   }, []);
 
-  const handleDownloadResume = async () => {
-    try {
-      const apiUrl = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
-      const response = await fetch(`${apiUrl}/resume`);
-
-      if (!response.ok) {
-        throw new Error('Resume not found');
-      }
-
-      const blob = await response.blob();
-      const url = window.URL.createObjectURL(blob);
-      const a = document.createElement('a');
-      a.style.display = 'none';
-      a.href = url;
-      a.download = 'Muhammad_Sayyedain_Resume.pdf';
-      document.body.appendChild(a);
-      a.click();
-
-      // Cleanup
-      setTimeout(() => {
-        window.URL.revokeObjectURL(url);
-        document.body.removeChild(a);
-      }, 100);
-    } catch (error) {
-      console.error('Error downloading resume:', error);
-      // Fallback: open resume in new tab
-      const apiUrl = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
-      window.open(`${apiUrl}/resume`, '_blank');
-    }
+  const handleDownloadResume = () => {
+    const resumePath = '/resume.pdf';
+    const link = document.createElement('a');
+    link.style.display = 'none';
+    link.href = resumePath;
+    link.download = 'Muhammad_Sayyedain_Resume.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
   };
 
   // Floating badges positions
