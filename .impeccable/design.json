@@ -1,261 +1,231 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-07-18T19:04:18+05:00",
-  "title": "Design System: Muhammad Sayyedain Portfolio",
+  "generatedAt": "2026-07-19T00:40:00+05:00",
+  "title": "Design System: Muhammad Sayyedain AI Portfolio",
   "extensions": {
     "colorMeta": {
-      "canvas": {
+      "background": {
         "role": "neutral",
-        "displayName": "Workshop Canvas",
-        "canonical": "#F7F5EF",
-        "tonalRamp": ["#1B1A18", "#34322E", "#57534C", "#7C776D", "#A49E92", "#C9C4BA", "#E5E1D9", "#F7F5EF"]
+        "displayName": "Daylight Canvas",
+        "canonical": "#FFFFFF",
+        "tonalRamp": ["#130B09", "#302723", "#554A47", "#7A6F6B", "#A19591", "#C7BBB7", "#E7DBD7", "#FFFFFF"]
       },
       "surface": {
         "role": "neutral",
-        "displayName": "Clean Surface",
-        "canonical": "#FFFFFF",
-        "tonalRamp": ["#1A1A1A", "#333333", "#555555", "#777777", "#A0A0A0", "#C8C8C8", "#E7E7E7", "#FFFFFF"]
+        "displayName": "Porcelain Surface",
+        "canonical": "#F7F3F0",
+        "tonalRamp": ["#130B09", "#302723", "#554A47", "#7A6F6B", "#A19591", "#C7BBB7", "#EEE7E4", "#F7F3F0"]
       },
       "ink": {
         "role": "neutral",
-        "displayName": "Charcoal Ink",
-        "canonical": "#171A1D",
-        "tonalRamp": ["#101214", "#171A1D", "#2D3237", "#4A5158", "#6E777F", "#9CA4AA", "#CDD1D4", "#F1F3F4"]
+        "displayName": "Warm Ink",
+        "canonical": "#251C19",
+        "tonalRamp": ["#130B09", "#251C19", "#413531", "#60524D", "#7A6F6B", "#A19591", "#C7BBB7", "#FEF2EE"]
       },
-      "ink-muted": {
+      "muted": {
         "role": "neutral",
         "displayName": "Quiet Ink",
-        "canonical": "#4B5158",
-        "tonalRamp": ["#151719", "#25292D", "#383D43", "#4B5158", "#6E757C", "#979DA2", "#C5C9CC", "#EEF0F1"]
+        "canonical": "#60524D",
+        "tonalRamp": ["#130B09", "#302723", "#413531", "#60524D", "#7A6F6B", "#A19591", "#C7BBB7", "#FEF2EE"]
       },
-      "rule": {
+      "line": {
         "role": "neutral",
-        "displayName": "Rule",
-        "canonical": "#CDD3D6",
-        "tonalRamp": ["#181B1D", "#303537", "#4E5558", "#70787C", "#969EA2", "#B7BFC2", "#CDD3D6", "#F1F3F4"]
+        "displayName": "Hairline",
+        "canonical": "#DFD7D4",
+        "tonalRamp": ["#302723", "#554A47", "#7A6F6B", "#A19591", "#B9AEAA", "#C7BBB7", "#DFD7D4", "#F7F3F0"]
       },
-      "flutter": {
+      "amber": {
         "role": "primary",
-        "displayName": "Flutter Signal",
-        "canonical": "#0866C6",
-        "tonalRamp": ["#031A33", "#05315F", "#064A91", "#0866C6", "#2D84DB", "#67A5E5", "#A7CCF1", "#E8F3FC"]
+        "displayName": "Instrument Amber",
+        "canonical": "#DD5316",
+        "tonalRamp": ["#3D0F00", "#671F00", "#8A2C02", "#AA3606", "#DD5316", "#F36730", "#FF9868", "#FFECE3"]
       },
-      "flutter-deep": {
+      "amber-fill": {
         "role": "primary",
-        "displayName": "Flutter Deep",
-        "canonical": "#064A91",
-        "tonalRamp": ["#021426", "#032746", "#053A6D", "#064A91", "#2A6FA8", "#6599C4", "#A4C5DF", "#E6F0F8"]
+        "displayName": "Amber Fill",
+        "canonical": "#AA3606",
+        "tonalRamp": ["#3D0F00", "#671F00", "#8A2C02", "#AA3606", "#DD5316", "#F36730", "#FF9868", "#FFECE3"]
       },
-      "aqua": {
+      "petrol": {
         "role": "secondary",
-        "displayName": "Aqua Interaction",
-        "canonical": "#1CBFB1",
-        "tonalRamp": ["#062D2A", "#0A504A", "#10776F", "#159D92", "#1CBFB1", "#5AD3C8", "#9BE6DF", "#E4F9F6"]
+        "displayName": "Petrol Counterpoint",
+        "canonical": "#005482",
+        "tonalRamp": ["#04121C", "#042234", "#003A5C", "#005482", "#077BAB", "#44A3D5", "#8FC9E9", "#E1EFF9"]
       },
-      "aqua-deep": {
+      "petrol-deep": {
         "role": "secondary",
-        "displayName": "Aqua Deep",
-        "canonical": "#007A74",
-        "tonalRamp": ["#001F1E", "#003B38", "#005954", "#007A74", "#289A93", "#63BDB7", "#A3DDD9", "#E4F7F5"]
-      },
-      "night": {
-        "role": "neutral",
-        "displayName": "Night",
-        "canonical": "#121920",
-        "tonalRamp": ["#0A0F13", "#121920", "#27343F", "#435461", "#687782", "#919DA6", "#C0C7CC", "#EEF1F3"]
-      },
-      "night-surface": {
-        "role": "neutral",
-        "displayName": "Night Surface",
-        "canonical": "#1C252D",
-        "tonalRamp": ["#0B1014", "#1C252D", "#303E49", "#4B5B67", "#6F7E89", "#98A3AB", "#C5CBD0", "#F0F2F3"]
-      },
-      "night-text": {
-        "role": "neutral",
-        "displayName": "Night Text",
-        "canonical": "#F7F8F7",
-        "tonalRamp": ["#181918", "#343534", "#565856", "#7B7D7B", "#A3A5A3", "#C9CBC9", "#E5E7E5", "#F7F8F7"]
-      },
-      "night-muted": {
-        "role": "neutral",
-        "displayName": "Night Muted",
-        "canonical": "#BEC8CE",
-        "tonalRamp": ["#171A1C", "#2E3437", "#4A5358", "#6C777D", "#929DA4", "#BEC8CE", "#D9E0E3", "#F2F5F6"]
+        "displayName": "Petrol Deep",
+        "canonical": "#042234",
+        "tonalRamp": ["#04121C", "#042234", "#003A5C", "#005482", "#077BAB", "#44A3D5", "#8FC9E9", "#E1EFF9"]
       }
     },
     "typographyMeta": {
       "display": {
         "displayName": "Display",
-        "purpose": "Hero statement only."
+        "purpose": "Hero statement and the drenched contact heading; Archivo at 118% width."
       },
       "headline": {
         "displayName": "Headline",
-        "purpose": "Major project and section headings."
+        "purpose": "Section and flagship project headings; Archivo at 115% width."
       },
       "title": {
         "displayName": "Title",
-        "purpose": "Project subheads, decisions, and timeline roles."
+        "purpose": "Project summaries, group titles, working-note statements."
       },
       "body": {
         "displayName": "Body",
-        "purpose": "Readable explanations capped at 68ch."
+        "purpose": "Readable explanations in Source Sans 3, capped at 65ch."
       },
       "label": {
-        "displayName": "Technical Label",
-        "purpose": "Short technology, date, route, and metadata annotations."
+        "displayName": "Label",
+        "purpose": "Status pills, kickers, diagram chrome — Archivo 640, never below 0.68rem, never a mono costume."
       }
     },
     "shadows": [
       {
-        "name": "device-lift",
-        "value": "0 18px 44px rgba(18, 25, 32, 0.14)",
-        "purpose": "Frontmost overlapping app screen only; never paired with a decorative border."
+        "name": "panel",
+        "value": "0 1px 2px rgba(37, 28, 25, 0.04), 0 14px 34px -18px rgba(37, 28, 25, 0.16)",
+        "purpose": "Floating scene chips and ranked cards; never combined with a visible border."
       },
       {
-        "name": "pressed-control",
-        "value": "0 2px 0 rgba(18, 25, 32, 0.18)",
-        "purpose": "Optional active-state feedback for a filled button."
+        "name": "float",
+        "value": "0 30px 50px -22px rgba(80, 45, 30, 0.32)",
+        "purpose": "The hero invoice sheet only — the single deepest elevation on the site."
       }
     ],
     "motion": [
       {
         "name": "state-fast",
-        "value": "180ms cubic-bezier(0.25, 1, 0.5, 1)",
-        "purpose": "Button, link, focus, and navigation state changes."
+        "value": "160-200ms cubic-bezier(0.22, 1, 0.36, 1)",
+        "purpose": "Buttons, links, nav, focus transitions."
       },
       {
-        "name": "screen-change",
-        "value": "280ms cubic-bezier(0.16, 1, 0.3, 1)",
-        "purpose": "Small mobile-page screenshot transitions with no more than 16px travel."
+        "name": "hero-entrance",
+        "value": "0.8s cubic-bezier(0.22, 1, 0.36, 1) staggered 0.1-0.65s",
+        "purpose": "Hero choreography; transform-only, content never hidden."
+      },
+      {
+        "name": "stamp-spring",
+        "value": "spring(stiffness 320, damping 19) at 0.9s",
+        "purpose": "The REVIEW stamp settling — the one springy moment allowed."
+      },
+      {
+        "name": "pointer-tilt",
+        "value": "spring(stiffness 110-130, damping 20-22), ≤8° hero / ≤5° artifacts",
+        "purpose": "3D inspection tilt; disabled for touch and reduced motion."
       }
     ],
     "breakpoints": [
-      {
-        "name": "mobile",
-        "value": "0px"
-      },
-      {
-        "name": "tablet",
-        "value": "768px"
-      },
-      {
-        "name": "desktop",
-        "value": "1120px"
-      },
-      {
-        "name": "wide",
-        "value": "1440px"
-      }
+      { "name": "mobile", "value": "0px" },
+      { "name": "compact", "value": "620px" },
+      { "name": "tablet", "value": "760px" },
+      { "name": "desktop", "value": "1120px" }
     ]
   },
   "components": [
     {
       "name": "Primary Button",
       "kind": "button",
-      "refersTo": "button-primary",
+      "refersTo": "buttonPrimary",
       "description": "The single highest-priority action in a content group.",
-      "html": "<a class=\"ds-button-primary\" href=\"#selected-work\">View selected work</a>",
-      "css": ".ds-button-primary { display: inline-flex; min-height: 44px; align-items: center; justify-content: center; padding: 12px 18px; border: 0; border-radius: 6px; background: #0866C6; color: #FFFFFF; font: 600 1rem/1.2 \"Source Sans 3\", \"Segoe UI\", sans-serif; text-decoration: none; transition: background-color 180ms cubic-bezier(0.25, 1, 0.5, 1), transform 180ms cubic-bezier(0.25, 1, 0.5, 1); } .ds-button-primary:hover { background: #064A91; } .ds-button-primary:active { transform: translateY(1px); } .ds-button-primary:focus-visible { outline: 2px solid #0866C6; outline-offset: 3px; }"
+      "html": "<a class=\"ds-button-primary\" href=\"#work\">Explore AI work</a>",
+      "css": ".ds-button-primary { display: inline-flex; min-height: 48px; align-items: center; justify-content: center; padding: 12px 20px; border: 0; border-radius: 10px; background: #AA3606; color: #FFFFFF; font: 650 0.98rem/1.2 \"Source Sans 3\", \"Segoe UI\", sans-serif; text-decoration: none; transition: background-color 180ms cubic-bezier(0.22, 1, 0.36, 1), transform 180ms cubic-bezier(0.22, 1, 0.36, 1); } .ds-button-primary:hover { background: #251C19; transform: translateY(-2px); } .ds-button-primary:active { transform: translateY(0); } .ds-button-primary:focus-visible { outline: 2px solid #AA3606; outline-offset: 4px; }"
     },
     {
       "name": "Secondary Button",
       "kind": "button",
-      "refersTo": "button-secondary",
+      "refersTo": "buttonSecondary",
       "description": "A lower-emphasis action such as résumé download.",
       "html": "<a class=\"ds-button-secondary\" href=\"/resume.pdf\">Download résumé</a>",
-      "css": ".ds-button-secondary { display: inline-flex; min-height: 44px; align-items: center; justify-content: center; padding: 11px 17px; border: 1px solid #171A1D; border-radius: 6px; background: transparent; color: #171A1D; font: 600 1rem/1.2 \"Source Sans 3\", \"Segoe UI\", sans-serif; text-decoration: none; transition: background-color 180ms cubic-bezier(0.25, 1, 0.5, 1), color 180ms cubic-bezier(0.25, 1, 0.5, 1); } .ds-button-secondary:hover { background: #171A1D; color: #FFFFFF; } .ds-button-secondary:focus-visible { outline: 2px solid #0866C6; outline-offset: 3px; }"
+      "css": ".ds-button-secondary { display: inline-flex; min-height: 48px; align-items: center; justify-content: center; padding: 12px 20px; border: 1px solid #B9AEAA; border-radius: 10px; background: transparent; color: #251C19; font: 650 0.98rem/1.2 \"Source Sans 3\", \"Segoe UI\", sans-serif; text-decoration: none; transition: border-color 180ms cubic-bezier(0.22, 1, 0.36, 1), background-color 180ms cubic-bezier(0.22, 1, 0.36, 1); } .ds-button-secondary:hover { border-color: #251C19; background: #F7F3F0; } .ds-button-secondary:focus-visible { outline: 2px solid #AA3606; outline-offset: 4px; }"
+    },
+    {
+      "name": "Status Pill",
+      "kind": "custom",
+      "refersTo": "statusPill",
+      "description": "Project status: a colored dot plus words, never color alone.",
+      "html": "<span class=\"ds-status-pill\"><i></i>In development</span>",
+      "css": ".ds-status-pill { display: inline-flex; align-items: center; gap: 8px; padding: 7px 13px; border: 1px solid #B9AEAA; border-radius: 999px; background: #FFFFFF; color: #251C19; font: 620 0.8rem/1.3 \"Archivo\", \"Arial Narrow\", sans-serif; font-stretch: 104%; } .ds-status-pill i { width: 8px; height: 8px; border-radius: 50%; background: #DD5316; }"
     },
     {
       "name": "Active Navigation Link",
       "kind": "nav",
-      "description": "Compact navigation state with a structural Flutter-blue rule.",
-      "html": "<a class=\"ds-nav-link ds-nav-link-active\" href=\"#selected-work\" aria-current=\"location\">Work</a>",
-      "css": ".ds-nav-link { position: relative; display: inline-flex; min-height: 44px; align-items: center; color: #4B5158; font: 600 0.95rem/1 \"Source Sans 3\", \"Segoe UI\", sans-serif; text-decoration: none; } .ds-nav-link::after { position: absolute; right: 0; bottom: 7px; left: 0; height: 2px; background: #0866C6; content: \"\"; transform: scaleX(0); transform-origin: left; transition: transform 180ms cubic-bezier(0.25, 1, 0.5, 1); } .ds-nav-link:hover, .ds-nav-link-active { color: #171A1D; } .ds-nav-link:hover::after, .ds-nav-link-active::after { transform: scaleX(1); } .ds-nav-link:focus-visible { outline: 2px solid #0866C6; outline-offset: 3px; }"
+      "description": "Header link with the amber active underline.",
+      "html": "<a class=\"ds-nav-link ds-nav-link-active\" href=\"#work\" aria-current=\"location\">AI work</a>",
+      "css": ".ds-nav-link { position: relative; display: inline-flex; min-height: 44px; align-items: center; padding-inline: 12px; border-radius: 10px; color: #413531; font: 600 0.92rem/1 \"Source Sans 3\", \"Segoe UI\", sans-serif; text-decoration: none; } .ds-nav-link:hover { background: #F7F3F0; color: #251C19; } .ds-nav-link-active { color: #AA3606; } .ds-nav-link-active::after { position: absolute; right: 12px; bottom: 6px; left: 12px; height: 2px; border-radius: 2px; background: #DD5316; content: \"\"; } .ds-nav-link:focus-visible { outline: 2px solid #AA3606; outline-offset: 4px; }"
     },
     {
-      "name": "Technical Label",
+      "name": "Project Link",
       "kind": "custom",
-      "refersTo": "technical-label",
-      "description": "A short engineering annotation, never a body-copy style.",
-      "html": "<span class=\"ds-technical-label\">Flutter · Firestore</span>",
-      "css": ".ds-technical-label { color: #4B5158; font: 500 0.75rem/1.4 \"IBM Plex Mono\", Consolas, monospace; letter-spacing: 0.02em; }"
-    },
-    {
-      "name": "Case Study Link",
-      "kind": "custom",
-      "description": "An inline route link with an always-visible affordance.",
-      "html": "<a class=\"ds-case-link\" href=\"/work/pawpal\">Read case study <span aria-hidden=\"true\">→</span></a>",
-      "css": ".ds-case-link { display: inline-flex; min-height: 44px; align-items: center; gap: 8px; color: #0866C6; font: 600 1rem/1.2 \"Source Sans 3\", \"Segoe UI\", sans-serif; text-decoration-thickness: 1px; text-underline-offset: 4px; text-decoration-line: underline; transition: color 180ms cubic-bezier(0.25, 1, 0.5, 1), gap 180ms cubic-bezier(0.25, 1, 0.5, 1); } .ds-case-link:hover { gap: 12px; color: #064A91; } .ds-case-link:focus-visible { outline: 2px solid #0866C6; outline-offset: 3px; }"
+      "description": "Inline route link underlined in the project accent.",
+      "html": "<a class=\"ds-project-link\" href=\"/work/cace\">Explore case study <span aria-hidden=\"true\">→</span></a>",
+      "css": ".ds-project-link { display: inline-flex; min-height: 42px; align-items: center; gap: 8px; color: #251C19; font: 650 1rem/1.2 \"Source Sans 3\", \"Segoe UI\", sans-serif; text-decoration: underline; text-decoration-color: #DD5316; text-decoration-thickness: 2px; text-underline-offset: 4px; transition: color 160ms cubic-bezier(0.22, 1, 0.36, 1); } .ds-project-link:hover { color: #AA3606; } .ds-project-link:focus-visible { outline: 2px solid #AA3606; outline-offset: 4px; }"
     }
   ],
   "narrative": {
-    "northStar": "The Mobile Product Workbench",
-    "overview": "A recruiter is reviewing Muhammad's work in daylight on a laptop, then reopening a case study on a phone before an interview. The interface should feel like a well-organized product workshop: large working screens, concise annotations, precise dividers, and implementation notes placed where they help someone understand a decision. The light canvas is practical and calm; dark sections appear only when they improve screenshot contrast or mark a deliberate change in project atmosphere. This is editorial in pacing, not in magazine costume. The system uses a twelve-column layout and strong typography, but avoids the saturated display-serif-plus-mono aesthetic.",
+    "northStar": "The Daylight Workshop",
+    "overview": "A recruiter opens the portfolio at 11am between interviews and finds a sunlit examination workshop: white museum table, amber-glass instruments, precise soft shadows. The CACE examination metaphor runs through the site with the lights on — an invoice is read, checked against policy, and stamped for human review. Futurism is carried by CSS 3D depth, wide-stance Archivo type, and one choreographed entrance; never by dark-terminal costume, mono annotation fog, glow, or particles. Emphasis follows importance: the flagship system and the amber contact close are the loudest moments.",
     "keyCharacteristics": [
-      "Warm off-white canvas with charcoal type and a restrained Flutter-blue signal.",
-      "Asymmetric twelve-column compositions with obvious reading order.",
-      "Real Flutter screens at meaningful sizes; no illustrative substitutes.",
-      "Thin rules, square-ended spacing rhythm, moderate radii, and very little elevation.",
-      "Mobile-interface transitions used to explain sequence, not decorate text.",
-      "Truthful content centralized in one data model and reused across preview and case-study routes."
+      "Pure white canvas with porcelain panels and a warm ink ramp.",
+      "Amber as identity (flags, stamps, actions, the drenched close); petrol as the cool counterpoint (retrieval, evaluation, one deep panel).",
+      "Archivo Variable at expanded widths for voice; Source Sans 3 for explanation; no monospace anywhere.",
+      "Three deliberate project scales: flagship, split, compact — no identical mega-blocks.",
+      "Varied section openers; numbers only where order is information.",
+      "Honesty as a design system: status pills with words, evidence-boundary notes, no invented links or metrics."
     ],
     "rules": [
       {
-        "name": "The Ten-Percent Signal Rule",
-        "body": "Flutter blue and aqua together occupy no more than roughly ten percent of a viewport. Their rarity makes active states legible.",
+        "name": "The White-Text-On-Fills Rule",
+        "body": "Any amber or petrol fill carries white text. Dark text on saturated fills is prohibited.",
         "section": "colors"
       },
       {
-        "name": "The Aqua Context Rule",
-        "body": "Bright aqua is interactive on dark surfaces or non-textual on light surfaces. Use aqua-deep for normal-size text on the canvas.",
+        "name": "The Amber Split Rule",
+        "body": "Bright amber (#DD5316) is for large display accents, dots, and flags only; amber-fill (#AA3606) is for anything carrying normal-size text.",
         "section": "colors"
       },
       {
-        "name": "The No-Gradient Rule",
-        "body": "Color changes by section, state, or solid block—not through decorative gradients or gradient text.",
+        "name": "The One-Dark-Moment Rule",
+        "body": "Petrol-deep appears exactly twice: the training path panel and the PalPath X-ray stage. It is an environment, not a theme.",
         "section": "colors"
       },
       {
-        "name": "The Two-Voice Rule",
-        "body": "Bricolage speaks; Source Sans explains. IBM Plex Mono only annotates.",
+        "name": "The No-Costume Rule",
+        "body": "No monospace, no eyebrow labels above headings, no decorative numbering. Machine flavor comes from content, not typography.",
         "section": "typography"
       },
       {
-        "name": "The One-Display Rule",
-        "body": "Each viewport gets one dominant heading. Supporting headings step down clearly instead of competing at hero scale.",
+        "name": "The Readability Floor Rule",
+        "body": "Nothing below 0.68rem, and only diagram chrome may go below 0.74rem.",
         "section": "typography"
       },
       {
-        "name": "The Flat-by-Default Rule",
-        "body": "If a surface is understandable with spacing and a rule, adding a shadow is prohibited.",
+        "name": "The Shadow-Or-Border Rule",
+        "body": "Elevated pieces use a shadow with no border; flat panels use a border with no wide blur. Never both.",
         "section": "elevation"
       },
       {
-        "name": "The One-Lift Rule",
-        "body": "No viewport contains more than one visibly elevated screenshot group.",
-        "section": "elevation"
+        "name": "The Never-Hidden Rule",
+        "body": "Entrance choreography animates transform only. No content is opacity-gated behind an animation.",
+        "section": "motion"
       }
     ],
     "dos": [
-      "**Do** let real Flutter screens be the largest proof on the page and capture them from the actual running projects or Muhammad's supplied devices.",
-      "**Do** use the twelve-column grid asymmetrically while preserving a clear mobile reading order.",
-      "**Do** keep body copy within 68ch, headings balanced, and technical labels short.",
-      "**Do** keep Flutter blue and aqua controlled, verify contrast, and use aqua-deep when aqua-family text appears on the light canvas.",
-      "**Do** use thin rules, 6–16px interface radii, deliberate whitespace, and flat surfaces.",
-      "**Do** preserve /resume.pdf, canonical contact links, verified repositories, the authentication-only PalPath web deployment, React/Vite/Tailwind, and Vercel deployment behavior.",
-      "**Do** provide semantic HTML, keyboard navigation, stable accessible names, visible focus, descriptive alt text, intrinsic image dimensions, and reduced-motion fallbacks.",
-      "**Do** omit a link, image, metric, role, or feature when it cannot be verified."
+      "**Do** keep the CACE examination scene the single dominant hero effect, with plain-language chip labels a non-technical recruiter can read.",
+      "**Do** scale project presentation by importance: CACE flagship, Production RAG split, FLAN-T5 and PalPath compact.",
+      "**Do** keep every status pill, evidence boundary, and 'code not public yet' note visible and truthful.",
+      "**Do** use Archivo width (font-stretch 104–118%) as the voice axis; keep body copy in Source Sans 3 under 65ch.",
+      "**Do** verify contrast on every new pairing (body 16.7:1, muted 7.5:1, white on amber-fill 6.4:1).",
+      "**Do** preserve /resume.pdf, canonical GitHub/LinkedIn/email links, the PalPath repository and authentication preview, and reduced-motion fallbacks.",
+      "**Do** keep 44px targets, the skip link, focus trapping in the mobile menu, and role=\"img\" labels on scenes."
     ],
     "donts": [
-      "**Don't** use giant gradient headings, purple-to-blue gradients, gradient text, glassmorphism, glowing borders, random background particles, decorative grid backgrounds, or empty grey project-image placeholders.",
-      "**Don't** build a huge centered SaaS hero, hero-metric template, fake statistics, “24/7 learning” counters, skill percentage bars, proficiency dots, fabricated testimonials, clients, achievements, or performance claims.",
-      "**Don't** use floating technology pills, repeated identical card grids, cards nested inside cards, excessive rounded cards, or large icon tiles above every heading.",
-      "**Don't** repeat tiny uppercase tracked eyebrows or numbered section markers as page scaffolding.",
-      "**Don't** use generic rocket, sparkle, brain, or lightning icons, hand-drawn SVG scenes, decorative stripes, or stock illustrations as substitutes for app evidence.",
-      "**Don't** overuse IBM Plex Mono; it is reserved for technical labels and metadata.",
-      "**Don't** use constant parallax, magnetic interactions, bounce or elastic easing, continuous WebGL/canvas effects, or animate every text element.",
-      "**Don't** use generic copy such as “turning ideas into reality,” the title “Aspiring Software Engineer,” or position Muhammad as a generic full-stack, Node.js, backend, AI, or GenAI engineer.",
-      "**Don't** pair a one-pixel border with a wide decorative shadow, exceed 16px radii on ordinary cards/sections, hide content until an animation fires, clip focus rings, or allow horizontal overflow."
+      "**Don't** reintroduce IBM Plex Mono, sub-0.68rem annotations, eyebrow labels, or decorative 01/02 numbering.",
+      "**Don't** add gradient text, glassmorphism, particles, glowing borders, orbiting decorations, brains, robots, sparkles, or rockets.",
+      "**Don't** invent repositories, metrics, benchmark bars, testimonials, clients, or production claims.",
+      "**Don't** put dark text on amber or petrol fills, pair a 1px border with a wide blurred shadow, or exceed 18px radius on ordinary panels.",
+      "**Don't** gate content visibility behind animations or hide the 'currently building CACE' signal on mobile.",
+      "**Don't** return to the dark graphite terminal-forensic look or a purple-blue neon AI template."
     ]
   }
 }

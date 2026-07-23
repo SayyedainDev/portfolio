@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Muhammad Sayyedain portfolio</title>
+  <rect width="64" height="64" rx="12" fill="#080A09"/>
+  <path d="M12 45V19h7l7 11 7-11h7v26h-7V30l-7 10-7-10v15z" fill="#F0F4EA"/>
+  <path d="M45 19h7v26h-7z" fill="#C8F169"/>
+  <path d="M48 12h8v4h-8z" fill="#FF8A6A"/>
+</svg>

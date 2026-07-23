@@ -1,280 +1,250 @@
 ---
-name: "Muhammad Sayyedain Portfolio"
-description: "An editorial mobile product workshop for a Flutter developer."
+name: "Muhammad Sayyedain AI Portfolio"
+description: "A daylight examination workshop for an applied AI and GenAI engineer — porcelain canvas, amber instruments, petrol counterpoint."
 colors:
-  canvas: "#F7F5EF"
-  surface: "#FFFFFF"
-  ink: "#171A1D"
-  ink-muted: "#4B5158"
-  rule: "#CDD3D6"
-  flutter: "#0866C6"
-  flutter-deep: "#064A91"
-  aqua: "#1CBFB1"
-  aqua-deep: "#007A74"
-  night: "#121920"
-  night-surface: "#1C252D"
-  night-text: "#F7F8F7"
-  night-muted: "#BEC8CE"
+  background: "oklch(100% 0 0)"
+  surface: "oklch(96.6% 0.006 45)"
+  surfaceDeep: "oklch(93.2% 0.009 45)"
+  ink: "oklch(23.5% 0.015 40)"
+  inkSoft: "oklch(34% 0.018 40)"
+  muted: "oklch(45% 0.02 40)"
+  line: "oklch(88.5% 0.009 45)"
+  lineStrong: "oklch(76% 0.014 45)"
+  amber: "oklch(62% 0.185 40)"
+  amberFill: "oklch(50% 0.16 38)"
+  amberTint: "oklch(95.5% 0.024 45)"
+  amberBright: "oklch(78% 0.14 45)"
+  petrol: "oklch(42% 0.115 235)"
+  petrolDeep: "oklch(24% 0.05 240)"
+  petrolTint: "oklch(94.5% 0.02 235)"
+  onColor: "oklch(100% 0 0)"
 typography:
   display:
-    fontFamily: "Bricolage Grotesque Variable, Arial Narrow, sans-serif"
-    fontSize: "clamp(3.5rem, 7.5vw, 6rem)"
-    fontWeight: 600
-    lineHeight: 0.96
-    letterSpacing: "-0.035em"
+    fontFamily: "Archivo, Arial Narrow, sans-serif"
+    fontSize: "clamp(2.8rem, 9.5vw, 4.9rem)"
+    fontWeight: 660
+    fontStretch: "118%"
+    lineHeight: 1.03
+    letterSpacing: "-0.028em"
   headline:
-    fontFamily: "Bricolage Grotesque Variable, Arial Narrow, sans-serif"
-    fontSize: "clamp(2.25rem, 4.8vw, 4.25rem)"
-    fontWeight: 600
-    lineHeight: 1
-    letterSpacing: "-0.03em"
+    fontFamily: "Archivo, Arial Narrow, sans-serif"
+    fontSize: "clamp(2rem, 4.6vw, 3.3rem)"
+    fontWeight: 640
+    fontStretch: "115%"
+    lineHeight: 1.06
+    letterSpacing: "-0.022em"
   title:
-    fontFamily: "Bricolage Grotesque Variable, Arial Narrow, sans-serif"
-    fontSize: "clamp(1.5rem, 2.4vw, 2.25rem)"
-    fontWeight: 600
-    lineHeight: 1.1
-    letterSpacing: "-0.02em"
+    fontFamily: "Archivo, Arial Narrow, sans-serif"
+    fontSize: "clamp(1.45rem, 3.4vw, 2.1rem)"
+    fontWeight: 620
+    fontStretch: "112%"
+    lineHeight: 1.12
+    letterSpacing: "-0.016em"
   body:
-    fontFamily: "Source Sans 3 Variable, Segoe UI, sans-serif"
-    fontSize: "clamp(1rem, 0.96rem + 0.2vw, 1.125rem)"
+    fontFamily: "Source Sans 3, Segoe UI, sans-serif"
+    fontSize: "clamp(1.02rem, 1rem + 0.18vw, 1.15rem)"
     fontWeight: 400
-    lineHeight: 1.6
+    lineHeight: 1.66
   label:
-    fontFamily: "IBM Plex Mono, Consolas, monospace"
-    fontSize: "0.75rem"
-    fontWeight: 500
+    fontFamily: "Archivo, Arial Narrow, sans-serif"
+    fontSize: "0.8rem"
+    fontWeight: 640
+    fontStretch: "105%"
     lineHeight: 1.4
-    letterSpacing: "0.02em"
+    letterSpacing: "0.012em"
 rounded:
-  sm: "6px"
-  md: "10px"
-  lg: "16px"
-  device: "20px"
+  control: "10px"
+  panel: "18px"
+  chip: "999px"
 spacing:
-  xs: "4px"
-  sm: "8px"
-  md: "16px"
-  lg: "24px"
-  xl: "40px"
-  2xl: "64px"
-  3xl: "96px"
+  gutterMobile: "20px"
+  gutterTablet: "34px"
+  gutterDesktop: "48px"
+  section: "clamp(5rem, 9vw, 8.5rem)"
 components:
-  button-primary:
-    backgroundColor: "{colors.flutter}"
-    textColor: "{colors.surface}"
-    typography: "{typography.body}"
-    rounded: "{rounded.sm}"
-    padding: "12px 18px"
-  button-primary-hover:
-    backgroundColor: "{colors.flutter-deep}"
-    textColor: "{colors.surface}"
-    typography: "{typography.body}"
-    rounded: "{rounded.sm}"
-    padding: "12px 18px"
-  button-secondary:
+  buttonPrimary:
+    backgroundColor: "{colors.amberFill}"
+    textColor: "{colors.onColor}"
+    rounded: "{rounded.control}"
+    minHeight: "48px"
+  buttonSecondary:
     backgroundColor: "transparent"
     textColor: "{colors.ink}"
-    typography: "{typography.body}"
-    rounded: "{rounded.sm}"
-    padding: "11px 17px"
-  technical-label:
-    backgroundColor: "transparent"
-    textColor: "{colors.ink-muted}"
-    typography: "{typography.label}"
-    rounded: "{rounded.sm}"
-    padding: "0"
-  screenshot-frame:
-    backgroundColor: "{colors.night-surface}"
-    textColor: "{colors.night-text}"
-    rounded: "{rounded.device}"
-    padding: "0"
+    borderColor: "{colors.lineStrong}"
+    rounded: "{rounded.control}"
+    minHeight: "48px"
+  panel:
+    backgroundColor: "{colors.background}"
+    borderColor: "{colors.line}"
+    rounded: "{rounded.panel}"
+  statusPill:
+    backgroundColor: "{colors.background}"
+    borderColor: "{colors.lineStrong}"
+    rounded: "{rounded.chip}"
 ---
 
-# Design System: Muhammad Sayyedain Portfolio
+# Design System: Muhammad Sayyedain AI Portfolio
 
-## Overview
+## Creative North Star
 
-**Creative North Star: "The Mobile Product Workbench"**
+**"The Daylight Workshop."**
 
-A recruiter is reviewing Muhammad's work in daylight on a laptop, then reopening a case study on a phone before an interview. The interface should feel like a well-organized product workshop: large working screens, concise annotations, precise dividers, and implementation notes placed where they help someone understand a decision. The light canvas is practical and calm; dark sections appear only when they improve screenshot contrast or mark a deliberate change in project atmosphere.
+A recruiter opens the portfolio at 11am between two interviews and finds a sunlit
+examination workshop: a white museum table, amber-glass instruments, precise soft
+shadows. The examination metaphor comes from CACE — a real export invoice is read,
+checked against policy, and stamped for human review — but the lights are on. The
+drama comes from dimensional porcelain planes and honest architecture, not from a
+dark terminal costume.
 
-This is editorial in pacing, not in magazine costume. The system uses a twelve-column layout and strong typography, but avoids the saturated “display serif + italic + mono captions” aesthetic. Bricolage Grotesque gives the portfolio a compact, engineered voice; Source Sans 3 carries long explanations; IBM Plex Mono is restricted to short technical metadata.
+The interface is warm, precise, and forward-looking. Futurism is carried by CSS 3D
+depth, engineered wide-stance type, and one choreographed entrance — never by
+glow, particles, or mono-annotation fog.
 
-The home page moves through compact navigation, a split hero, three individually art-directed project previews, a capability matrix, build notes, experience and education, a personal introduction, and a contact footer. Dedicated case-study routes deepen each selected project without changing the framework. The current React/Vite/Tailwind foundation and Vercel deployment remain the implementation base.
+## Visual Strategy
 
-**Key Characteristics:**
+- **Committed light palette:** pure white carries the site. Amber is the identity
+  color (flagged fields, review stamps, primary actions, the drenched contact
+  close). Petrol blue is the cool structural counterpoint (retrieval, evaluation,
+  the dark training panel). Nothing else.
+- **One dominant hero effect:** the CACE examination scene — table plane, invoice
+  sheet with a flagged row, three plain-language process chips, and a REVIEW stamp
+  that physically stamps in on load. Pointer tilt ≤8°.
+- **Emphasis follows importance:** CACE gets the flagship full-width panel;
+  Production RAG a split composition; FLAN-T5 and PalPath compact panels. The
+  loudest moments (hero scene, amber close) belong to the work and the contact,
+  not to coursework.
+- **No fake UI, no fake numbers:** diagrams explain verified architecture with
+  readable labels (nothing below 0.68rem). No invented metrics or bar charts.
+- **Status is structural:** every project carries a status pill (dot + words) and
+  an evidence-boundary note. Honesty is the differentiator; keep it visible.
 
-- Warm off-white canvas with charcoal type and a restrained Flutter-blue signal.
-- Asymmetric twelve-column compositions with obvious reading order.
-- Real Flutter screens at meaningful sizes; no illustrative substitutes.
-- Thin rules, square-ended spacing rhythm, moderate radii, and very little elevation.
-- Mobile-interface transitions used to explain sequence, not decorate text.
-- Truthful content centralized in one data model and reused across preview and case-study routes.
+## Color Roles
 
-## Colors
+- **White canvas:** the workshop under daylight. Porcelain surfaces (96.6%, 93.2%)
+  are panels, scene floors, and the capability/training chapters.
+- **Warm ink ramp:** body text at 16.7:1; ink-soft and muted for supporting copy
+  (both ≥ 4.5:1 on white and on porcelain).
+- **Amber (62%):** large display accents, dots, flags — 3:1, large/graphic use only.
+- **Amber-fill (50%):** buttons, links, stamps, the drenched footer — always with
+  white text (6.4:1).
+- **Petrol (42%):** retrieval/evaluation accents and labels; white text on fills.
+- **Petrol-deep (24%):** the one dark panel (training phases) and the PalPath
+  X-ray stage — an honest dark environment, not a theme.
 
-The palette is restrained: neutrals carry the page, Flutter blue marks primary action and navigation, and aqua appears briefly for active or transitional states. The hex values in the frontmatter are normative.
-
-### Primary
-
-- **Flutter Signal** (`flutter`): primary CTA fills, selected navigation, important inline links, and the one high-salience annotation in a project section.
-- **Flutter Deep** (`flutter-deep`): hover/pressed states and accessible blue text when a stronger contrast is required.
-
-### Secondary
-
-- **Aqua Interaction** (`aqua`): active screenshot indicators, dark-section focus accents, and short-lived transition feedback. It is never body text on the light canvas.
-- **Aqua Deep** (`aqua-deep`): accessible aqua-family text on the light canvas.
-
-### Neutral
-
-- **Workshop Canvas** (`canvas`): the primary page background.
-- **Clean Surface** (`surface`): selective screenshot mats, menus, and utility surfaces; it does not create a page full of white cards.
-- **Charcoal Ink** (`ink`): headings and body text.
-- **Quiet Ink** (`ink-muted`): supporting prose and metadata; it maintains a 7.36:1 contrast ratio on the canvas.
-- **Rule** (`rule`): dividers, screenshot rails, and structural borders.
-- **Night** (`night`): the single dark project section and the contact footer.
-- **Night Surface** (`night-surface`): selective structure inside dark sections, used without turning content into nested cards.
-- **Night Text** (`night-text`): headings and primary copy on dark sections.
-- **Night Muted** (`night-muted`): supporting copy and metadata on dark sections.
-
-**The Ten-Percent Signal Rule.** Flutter blue and aqua together occupy no more than roughly ten percent of a viewport. Their rarity makes active states legible.
-
-**The Aqua Context Rule.** Bright aqua is interactive on dark surfaces or non-textual on light surfaces. Use `aqua-deep` for normal-size text on the canvas.
-
-**The No-Gradient Rule.** Color changes by section, state, or solid block—not through decorative gradients or gradient text.
+Gradient text is prohibited. Text on saturated fills is white, never dark.
 
 ## Typography
 
-**Display Font:** Bricolage Grotesque Variable (with Arial Narrow and sans-serif fallbacks)  
-**Body Font:** Source Sans 3 Variable (with Segoe UI and sans-serif fallbacks)  
-**Label/Mono Font:** IBM Plex Mono (with Consolas and monospace fallbacks)
+Archivo Variable (weight 100–900, width 62–125%) speaks in a confident, slightly
+expanded voice: display and headings at 115–118% width, small labels at 104–106%.
+Source Sans 3 explains, at a base of ~1.05rem with 1.66 line-height. There is no
+monospace font: machine flavor is carried by content (CASE 024, field rows,
+pipeline steps), not by a costume typeface.
 
-**Character:** The display face is compact, slightly idiosyncratic, and product-minded. The body face is open and highly readable. The mono face behaves like a measured annotation on an engineering drawing and never becomes the page's default voice.
+- Display tops out at ~4.9rem, tracking never tighter than -0.028em, line-height ≥ 1.02.
+- Section headings top out at ~3.3–4.2rem.
+- Body stays under 65ch; headings use `text-wrap: balance`, prose `text-wrap: pretty`.
+- Absolute floor for readable text: 0.74rem (`--fs-micro`), used only inside diagram chrome.
 
-The implementation should self-host a minimal set of WOFF2 variable font files, preload only the critical display/body faces, use `font-display: swap`, and provide metrically compatible fallbacks to reduce layout shift.
+Every font-size in the codebase comes from the tokenized scale in `:root` —
+never a literal. The steps: `--fs-micro` 0.74rem · `--fs-caption` 0.8rem ·
+`--fs-meta` 0.86rem · `--fs-small` 0.92rem · `--fs-control` 0.98rem ·
+`--fs-lead` 1.12rem · `--fs-body` / `--fs-body-lg` (fluid) · `--fs-title-sm` ·
+`--fs-title` · `--fs-subhead` · `--fs-headline` · `--fs-statement` ·
+`--fs-display`, plus `--fs-menu`, `--fs-email`, `--fs-numeral` one-offs.
+Radii likewise: `--r-xs` 4px · `--r-sm` 8px · `--r-control` 10px ·
+`--r-inner` 12px · `--r-panel` 18px · `--r-chip` pill.
 
-### Hierarchy
+## Layout and Rhythm
 
-- **Display** (600 weight, 0.96 line height): `clamp(3.5rem, 7.5vw, 6rem)` for the hero statement only; maximum size is 96px and tracking never exceeds `-0.035em`.
-- **Headline** (600 weight, 1 line height): `clamp(2.25rem, 4.8vw, 4.25rem)` for major project and section headings.
-- **Title** (600 weight, 1.1 line height): `clamp(1.5rem, 2.4vw, 2.25rem)` for project subheads, decisions, and timeline roles.
-- **Body** (400 weight, 1.6 line height): `clamp(1rem, 0.96rem + 0.2vw, 1.125rem)` for explanations, capped at 68ch and set with `text-wrap: pretty`.
-- **Label** (500, 0.75rem, `0.02em`, sentence case by default): technology, dates, route labels, and short metadata. Uppercase is allowed only for compact technical codes, never as repeated section eyebrows.
-
-**The Two-Voice Rule.** Bricolage speaks; Source Sans explains. IBM Plex Mono only annotates.
-
-**The One-Display Rule.** Each viewport gets one dominant heading. Supporting headings step down clearly instead of competing at hero scale.
-
-## Elevation
-
-The system is flat by default. Separation comes from canvas changes, thin rules, overlap, and scale. Buttons, notes, capability rows, and timeline items do not receive ambient drop shadows.
-
-Phone/screenshot stacks are the single exception: a screen that visibly overlaps another may use a soft structural shadow without also adding a decorative border. Static screenshots elsewhere use either a one-pixel rule or a shadow, never both.
-
-### Shadow Vocabulary
-
-- **Device lift** (`0 18px 44px rgba(18, 25, 32, 0.14)`): the frontmost hero or project screen only, with no border.
-- **Pressed control** (`0 2px 0 rgba(18, 25, 32, 0.18)`): optional active-state feedback for a filled button; it disappears at rest.
-
-**The Flat-by-Default Rule.** If a surface is understandable with spacing and a rule, adding a shadow is prohibited.
-
-**The One-Lift Rule.** No viewport contains more than one visibly elevated screenshot group.
+- Mobile: single reading column, 20px gutters, full-width CTAs, the "currently
+  building CACE" line stays visible.
+- 760px introduces the split hero and project compositions; 1120px widens gutters
+  to 48px inside a 1400px canvas.
+- Section openers vary deliberately: hero statement → oversized work statement +
+  honesty aside → capability ledger with sticky side heading → working-notes list
+  → training chapter with kicker → journey year-spine → about pull-quote → amber
+  drench. No repeated eyebrow-label scaffolding.
+- Numbers appear only where order is information: pipeline steps, training weeks,
+  case-study decision lists.
 
 ## Components
 
-### Navigation
+### Header
 
-- A compact sticky header uses Muhammad's name as a real home link, four section links, and one contact action.
-- Desktop active state is a short Flutter-blue underline or rule aligned to the label; mobile active state is text color plus the same rule. Use `aria-current="location"`.
-- The mobile menu is a simple opaque panel, not glass. The trigger has an accessible name, `aria-expanded`, Escape handling, focus management, and a 44px minimum target.
-- A visible skip link precedes the header.
+Sticky white header with the amber MS mark, five section links (active = amber
+underline), and an always-available amber "Let's talk" action from 760px. The
+mobile menu is an opaque white sheet with large Archivo links and a full-width
+amber contact button; focus is trapped, Escape closes.
 
-### Buttons and Links
+### Hero Examination Scene
 
-- Primary and secondary actions use gently squared corners (6px), minimum 44px height, sentence-case labels, and no magnetic behavior.
-- Primary hover shifts from Flutter Signal to Flutter Deep over 180ms; active feedback moves no more than 1px.
-- Secondary actions use a one-pixel charcoal rule and transparent fill. Inline links use an underline that remains visible without hover.
-- Every external link that opens a new tab communicates that behavior in its accessible name; internal navigation stays in the same tab.
+CSS 3D only. A porcelain table plane (rotateX 58°), a white invoice sheet with an
+amber-flagged Net weight row and a stamped REVIEW, and three plain-language chips
+(Read the documents / Check against policy / A person decides). Entrance
+choreography moves elements (y/scale/rotate) but never hides them — content is
+fully visible even if no animation frame is ever delivered.
 
-### Hero and Phone Stack
+### Project Panels
 
-- The hero is a two-part composition, not a centered billboard. At desktop, copy occupies columns 1–6 and the screen stack occupies columns 7–12; tablet uses a 5/7 split; mobile stacks copy above imagery.
-- The copy order is fixed: “Flutter Developer · Lahore, Pakistan,” the supplied statement, one concise capability paragraph, primary/secondary actions, then the availability line. That paragraph must name Flutter, Firebase, REST APIs, Supabase, and offline storage explicitly.
-- The visual uses two or three real project captures with intrinsic dimensions. Screens overlap by no more than 18% and remain individually readable. Decorative device chrome stays thin and neutral.
-- The front screen may move 12–20px across the hero's scroll range. Reduced motion renders the final stack without translation.
+A shared white panel frame (1px line border, 18px radius) with three deliberate
+scales: flagship (CACE), split (Production RAG), compact pair (FLAN-T5, PalPath).
+Artifacts sit on porcelain with readable toplines, five-step numbered pipelines,
+and status footers. Scene pieces float with soft shadows (shadow OR border, never
+a 1px border plus a wide blur). Pointer tilt ≤5°.
 
-### Selected Project Features
+### Capability Ledger
 
-- The three previews are not instances of one identical card. They share content fields but receive different compositions:
-  - **Property Management:** light, wide listing/detail sequence with check-in/check-out, unavailable-date, favourites, booking-status, Firebase, and current-brief Hive-cache decisions in a narrow side column.
-  - **PawPal:** the single dark project section; owner/adopter roles, browsing, favourites, adoption requests, and realtime chat are presented as a left-to-right mobile-page sequence.
-  - **PalPath:** light clinical workflow with patient/case/appointment/treatment/quiz screens; image analysis appears as one supporting integration panel.
-- Each preview contains Problem, Role, Main technical decisions, Important features, Technology, real screenshots, and only the links that exist. GitHub and portfolio-local case-study links are present for all three; PalPath may link to its verified public web deployment, labeled as authentication-only until authenticated workflows are verified.
-- Dedicated routes are `/work/property-management`, `/work/pawpal`, and `/work/palpath`. A shared `CaseStudyPage` reads the same project data as the homepage preview, preventing copy or link drift.
-- Screens transition like a mobile page change: 8–16px horizontal movement plus opacity over 220–320ms with an ease-out curve. Content is visible by default and no route transition delays reading.
+A sticky side heading and four rule-separated groups; evidence tools are quiet
+petrol labels. No icon cards, no bars, no numbering.
 
-### Capability Matrix
+### Training Chapter
 
-- Capabilities are rule-separated rows, not cards, pills, or percentage bars.
-- Four groups organize evidence: Mobile product flows; Data, state, and offline behavior; Connected services; Tools and engineering foundations.
-- Each row pairs a capability statement with the technologies or project evidence that support it. Technology names remain plain text and never float independently as decoration.
+Porcelain section with a petrol kicker; the 13-week path is one deep-petrol
+rounded panel with amber-bright week numbers — the site's single contained dark
+moment, at conversational volume.
 
-### Build Notes
+### Contact Close
 
-- Three compact notes explain one implementation choice each: booking availability/status logic, realtime role/chat data, and the Flutter-to-service boundary in PalPath.
-- Notes use a mono metadata line, a short Bricolage title, and no more than 55ch of body text. Code snippets appear only if the source materially clarifies a decision.
-- Notes never claim performance improvements, concurrency safety, offline behavior, or production scale without evidence.
+The footer drenches in amber-fill with white text: availability line, a decisive
+heading, and an oversized email row. This is the loudest color moment on the site.
 
-### Experience, Education, About, and Contact
+## Motion
 
-- Experience and education use a single ruled timeline with dates aligned in a narrow column; there are no floating cards or invented statistics.
-- The about section is a short first-person explanation of Muhammad's mobile product scope. It does not invent hobbies, clients, or a personal-photo narrative.
-- The footer is a dark, decisive contact surface: availability, email, LinkedIn, GitHub, résumé, and a compact navigation repeat. It replaces a separate contact-card grid and does not require a backend form.
+- One orchestrated hero entrance: table settles, sheet rises, chips stagger in,
+  stamp springs (stiffness 320, damping 19). ~1.4s total.
+- Pointer tilt: spring-based, ≤8° hero, ≤5° artifacts, disabled for touch.
+- One measured scan line inside the PalPath X-ray stage.
+- Controls: 160–200ms ease-out; no bounce outside the single stamp spring.
+- Scroll progress: a 2px amber bar.
+- Entrances animate transform only — nothing is opacity-gated; all content is
+  present in the first render.
+- `prefers-reduced-motion` disables tilt, entrance choreography, the stamp
+  spring, scanning, and smooth scrolling.
 
-### Component Architecture
+## Accessibility and Performance
 
-- `src/data/portfolio.js`: one canonical export for identity, contact links, capabilities, build notes, timeline, and project objects. Each project owns `slug`, `problem`, `role`, `decisions`, `features`, `technology`, `repositoryUrl`, optional external link metadata (`url`, `label`, `verificationScope`), `caseStudyPath`, and screenshot metadata (`src`, `alt`, `width`, `height`).
-- `src/pages/Home.jsx` and `src/pages/CaseStudy.jsx`: route-level composition only.
-- `src/sections/`: `Hero`, `SelectedWork`, `Capabilities`, `BuildNotes`, `ExperienceEducation`, `About`, and `ContactFooter`.
-- `src/components/projects/`: `ProjectFeature`, `PhoneStack`, `ScreenshotSequence`, `ProjectMetadata`, and `CaseStudyLinks`.
-- `src/components/ui/`: `SiteHeader`, `ButtonLink`, `SectionHeading`, `TechnicalLabel`, `SkipLink`, and `FocusRing` conventions.
-- `src/hooks/useActiveSection.js`: IntersectionObserver-based active navigation. Framer Motion's reduced-motion support may be used for screenshot sequences; GSAP, Three/Rapier, Lenis, WebGL backgrounds, magnetic elements, and dormant animation components should be removed if no longer used.
+- Semantic landmarks, one route-level `h1`, ordered headings, skip link, visible
+  focus (amber-fill outline; white on color surfaces), 44px targets.
+- Status never relies on color alone — every dot has words next to it.
+- 3D uses CSS transforms only; scenes carry `role="img"` with a descriptive label
+  and decorative internals are `aria-hidden`.
+- Self-hosted variable fonts (`archivo-variable-latin.woff2`,
+  `source-sans-3-latin.woff2`) with `font-display: swap`; both preloaded.
+- Body ink 16.7:1, muted 7.5:1, white-on-amber-fill 6.4:1, white-on-petrol 8:1,
+  white-on-petrol-deep 16.4:1 — verified.
+- No horizontal overflow; stable at 200% zoom.
 
-### Responsive and Media Behavior
+## Do Not
 
-- Mobile: 4-column conceptual grid, 20px page gutters, 16px gaps, single-column project narratives, horizontally scrollable screenshot sequences with scroll snap only when every screen remains keyboard reachable.
-- Tablet: 8-column conceptual grid, 32px gutters, 20px gaps; hero and project media may split 5/3 or 3/5 depending on reading order.
-- Desktop: 12 columns, 48px gutters, 24px gaps, max content width 1440px. Sections intentionally use different spans rather than one repeated centered container.
-- All screenshots use local AVIF/WebP derivatives, intrinsic width/height, `srcset`/`sizes`, meaningful alt text, and `decoding="async"`. The first hero screen may load eagerly; all later project media lazy-loads. No image area renders as an empty placeholder.
-
-### Motion and Focus
-
-- Default state feedback lasts 160–220ms; screenshot sequences last 220–320ms. Use ease-out-quart/expo curves with translation under 20px.
-- Only phone/screenshots receive scroll-linked movement. Text, counters, backgrounds, and every repeated row remain static.
-- `prefers-reduced-motion` disables scroll transforms, page slides, smooth scrolling, and nonessential opacity transitions.
-- `:focus-visible` uses a 2px Flutter-blue outline with a 3px offset on light surfaces and a 2px aqua outline on dark surfaces. Overflow containers must not clip it.
-
-## Do's and Don'ts
-
-### Do:
-
-- **Do** let real Flutter screens be the largest proof on the page and capture them from the actual running projects or Muhammad's supplied devices.
-- **Do** use the twelve-column grid asymmetrically while preserving a clear mobile reading order.
-- **Do** keep body copy within 68ch, headings balanced, and technical labels short.
-- **Do** keep Flutter blue and aqua controlled, verify contrast, and use `aqua-deep` when aqua-family text appears on the light canvas.
-- **Do** use thin rules, 6–16px interface radii, deliberate whitespace, and flat surfaces.
-- **Do** preserve `/resume.pdf`, canonical contact links, verified repositories, the authentication-only PalPath web deployment, React/Vite/Tailwind, and Vercel deployment behavior.
-- **Do** provide semantic HTML, keyboard navigation, stable accessible names, visible focus, descriptive alt text, intrinsic image dimensions, and reduced-motion fallbacks.
-- **Do** omit a link, image, metric, role, or feature when it cannot be verified.
-
-### Don't:
-
-- **Don't** use giant gradient headings, purple-to-blue gradients, gradient text, glassmorphism, glowing borders, random background particles, decorative grid backgrounds, or empty grey project-image placeholders.
-- **Don't** build a huge centered SaaS hero, hero-metric template, fake statistics, “24/7 learning” counters, skill percentage bars, proficiency dots, fabricated testimonials, clients, achievements, or performance claims.
-- **Don't** use floating technology pills, repeated identical card grids, cards nested inside cards, excessive rounded cards, or large icon tiles above every heading.
-- **Don't** repeat tiny uppercase tracked eyebrows or numbered section markers as page scaffolding.
-- **Don't** use generic rocket, sparkle, brain, or lightning icons, hand-drawn SVG scenes, decorative stripes, or stock illustrations as substitutes for app evidence.
-- **Don't** overuse IBM Plex Mono; it is reserved for technical labels and metadata.
-- **Don't** use constant parallax, magnetic interactions, bounce or elastic easing, continuous WebGL/canvas effects, or animate every text element.
-- **Don't** use generic copy such as “turning ideas into reality,” the title “Aspiring Software Engineer,” or position Muhammad as a generic full-stack, Node.js, backend, AI, or GenAI engineer.
-- **Don't** pair a one-pixel border with a wide decorative shadow, exceed 16px radii on ordinary cards/sections, hide content until an animation fires, clip focus rings, or allow horizontal overflow.
+- Do not reintroduce IBM Plex Mono or any monospace label system, tiny (<0.68rem)
+  annotations, or the label-above-every-heading eyebrow grammar.
+- Do not number things that are not sequences.
+- Do not add gradient text, glassmorphism, particles, glowing borders, orbiting
+  decorations, neural-network imagery, brains, robots, sparkles, or rockets.
+- Do not put dark text on amber or petrol fills; use white.
+- Do not invent repository links, metrics, benchmark bars, testimonials, clients,
+  or production claims; keep every status and evidence boundary truthful.
+- Do not pair a 1px border with a wide blurred shadow, or exceed 18px radius on
+  ordinary panels.
+- Do not gate any content's visibility behind an animation.

@@ -7,26 +7,19 @@ export default {
   theme: {
     extend: {
       colors: {
-        accent: '#40E0D0',
-        dark: {
-          900: '#0A0A0A',
-          800: '#0D0D0D',
-          700: '#121212',
-          600: '#1A1A1A',
-          500: '#2A2A2A',
-        },
+        canvas: '#FFFFFF',
+        surface: '#F7F3F0',
+        ink: '#251C19',
+        muted: '#60524D',
+        line: '#DFD7D4',
+        amber: '#DD5316',
+        'amber-fill': '#AA3606',
+        petrol: '#005482',
+        'petrol-deep': '#042234',
       },
       fontFamily: {
-        sans: ['Inter', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif'],
-      },
-      animation: {
-        'fade-in': 'fadeIn 0.8s ease-out',
-      },
-      keyframes: {
-        fadeIn: {
-          '0%': { opacity: '0' },
-          '100%': { opacity: '1' },
-        },
+        display: ['Archivo', 'Arial Narrow', 'sans-serif'],
+        sans: ['Source Sans 3', 'Segoe UI', 'sans-serif'],
       },
     },
   },
